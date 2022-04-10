@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Dosis:wght@800&display=swap");
+:root {
+  --text: black;
+  --bg: #feeafa;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  background-color: var(--bg);
+}
+/*# sourceMappingURL=global.css.map */

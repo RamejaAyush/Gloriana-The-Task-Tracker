@@ -4,8 +4,12 @@
 // font-family: 'Dosis', sans-serif;
 
 :root {
-  --text: black;
-  --bg: #feeafa;
+  --text: #000;
+  --light-text: #000000ab;
+  --super-light-text: #00000008;
+  --body-bg: #feeafa;
+  --primary: #fd60dd;
+  --light-primary: #ffc7f4;
 }
 
 *,
@@ -18,5 +22,5 @@
 
 body {
   font-family: "Cabin", sans-serif;
-  background-color: var(--bg);
+  background-color: var(--body-bg);
 }
